@@ -26,3 +26,26 @@ Argus is a distributed system designed to bridge the gap between raw market data
 1. Clone the repository:
    ```bash
    git clone [https://github.com/YOUR_USERNAME/project-argus.git](https://github.com/YOUR_USERNAME/project-argus.git)
+
+2. Install dependencies:
+
+Bash
+pip install -r requirements.txt
+
+3. Run the surveillance engine:
+
+Bash
+python market_fetcher.py
+
+🗺️ Engineering Roadmap
+[x] Phase 1: Build Fault-Tolerant Ingestion Script (Python).
+
+[ ] Phase 2: Design Relational Schema for Time-Series Data (PostgreSQL).
+
+[ ] Phase 3: Develop API Gateway for Data Access (Django/FastAPI).
+
+[ ] Phase 4: Build Visualization Dashboard (React).
+
+[ ] Phase 5: Integrate AI Sentiment Analysis (RAG/Vector DB).
+
+Disclaimer: This project is for educational and research purposes only. Not financial advice.
